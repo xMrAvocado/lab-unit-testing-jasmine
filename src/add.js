@@ -1,10 +1,10 @@
-function add (numOne, numTwo) {
-    if (numOne == undefined || numTwo == undefined) {
+function add (num1, num2) {
+    if (num1 == undefined || num2 == undefined) {
         return undefined;
     }
-    if (numOne != "number" || numTwo != "number" ) {
+    if (typeof num1 != "number" || typeof num2 != "number" ) {
         return undefined;
     }
-    let sum = numOne + numTwo;
+    let sum = num1 + num2;
     return sum;
 }
